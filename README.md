@@ -6,7 +6,7 @@ A simple content-based recommender that suggests similar movies based on genre s
 
 ## 🧠 About the Project
 
-This project demonstrates how to build a **content-based movie recommendation system** using **TF-IDF Vectorization** and **Cosine Similarity**. The model recommends the most similar movies to a given title based on genre descriptions.
+This project demonstrates how to build a **content-based movie recommendation system** using **TF-IDF Vectorization** and **Cosine Similarity**. The model recommends the most similar movies to a given title based on genre descriptions. Now with improved **case-insensitive title matching** and **clearer user feedback**!
 
 ---
 
@@ -15,7 +15,9 @@ This project demonstrates how to build a **content-based movie recommendation sy
 * 🧾 Genre-based movie similarity detection
 * 🔍 TF-IDF vectorization for text representation
 * 📐 Cosine similarity to measure closeness
-* ✅ Easy user input for recommendations
+* ✅ Case-insensitive movie search
+* ❌ User feedback for unmatched titles
+* 🎯 Easy user input for recommendations
 
 ---
 
@@ -32,7 +34,7 @@ This project demonstrates how to build a **content-based movie recommendation sy
 ```
 movie-recommendation-system/
 ├── movie_recommender.py        # Main script
-├── movie_recommender.ipynb     # Main script Jupyter notebook
+├── movie_recommender.ipynb     # Main script
 ├── movie_genre_dataset.csv     # Sample dataset
 ├── README.md                   # Project overview
 ├── LICENSE                     # MIT License
@@ -71,9 +73,19 @@ python movie_recommender.py
 ## 📷 Sample Output
 
 ```
-Movie recommended for 'The Little Mermaid':
-- Moana
-- Finding Nemo
+Enter a Movie title: The Little Mermaid
+
+🎬 Movies recommended for 'The Little Mermaid':
+ - Moana
+ - Finding Nemo
+```
+
+If the movie isn't found:
+
+```
+Enter a Movie title: Unknown Movie
+
+❌ No movie found with the title 'unknown movie' in the dataset.
 ```
 
 ---
