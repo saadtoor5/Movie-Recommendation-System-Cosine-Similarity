@@ -1,2 +1,91 @@
-# Movie-Recommendation-System-Cosine-Similarity
-🎥 A simple genre-based movie recommender using TF-IDF and cosine similarity in Python.  Let me know if you'd like a more professional or fun version too.
+# 🎬 Movie Recommendation System using Cosine Similarity
+
+A simple content-based recommender that suggests similar movies based on genre similarity using TF-IDF and cosine similarity.
+
+---
+
+## 🧠 About the Project
+
+This project demonstrates how to build a **content-based movie recommendation system** using **TF-IDF Vectorization** and **Cosine Similarity**. The model recommends the most similar movies to a given title based on genre descriptions.
+
+---
+
+## 🚀 Features
+
+* 🧾 Genre-based movie similarity detection
+* 🔍 TF-IDF vectorization for text representation
+* 📐 Cosine similarity to measure closeness
+* ✅ Easy user input for recommendations
+
+---
+
+## 🛠️ Tech Stack
+
+* Python 3.x
+* pandas
+* scikit-learn
+
+---
+
+## 📁 Project Structure
+
+```
+movie-recommendation-system/
+├── movie_recommender.py        # Main script
+├── movie_recommender.ipynb     # Main script Jupyter notebook
+├── movie_genre_dataset.csv     # Sample dataset
+├── README.md                   # Project overview
+├── LICENSE                     # MIT License
+├── requirements.txt            # Required libraries
+└── images/
+    └── output_sample.png       # Screenshot of results (optional)
+```
+
+---
+
+## 💻 How to Run
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/saadtoor5/movie-recommendation-system.git
+cd movie-recommendation-system
+```
+
+2. **Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the Script**
+
+```bash
+python movie_recommender.py
+```
+
+4. **Input a Movie Title** when prompted to get 2 genre-similar recommendations.
+
+---
+
+## 📷 Sample Output
+
+```
+Movie recommended for 'The Little Mermaid':
+- Moana
+- Finding Nemo
+```
+
+---
+
+## 🧾 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+Made with ❤️ by [@saadtoor5](https://github.com/saadtoor5)
+
+Feel free to fork, explore, or contribute!
