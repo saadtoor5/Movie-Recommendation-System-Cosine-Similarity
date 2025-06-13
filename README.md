@@ -50,7 +50,7 @@ movie-recommendation-system/
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/saadtoor5/movie-recommendation-system.git
+git clone https://github.com/saadtoorx/movie-recommendation-system.git
 cd movie-recommendation-system
 ```
 
@@ -98,6 +98,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-Made with ❤️ by [@saadtoor5](https://github.com/saadtoor5)
+Made with ❤️ by [@saadtoorx](https://github.com/saadtoorx)
 
 Feel free to fork, explore, or contribute!
